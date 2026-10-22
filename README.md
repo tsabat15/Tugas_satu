@@ -91,9 +91,16 @@ bawaan sistem. Biayanya sedang, sehingga cocok untuk UMKM, misalnya aplikasi
 pemesanan kopi untuk toko oleh-oleh di Medan yang harus ada di Android dan
 iOS dengan anggaran terbatas.
 
+## Dokumen
+
+Folder `dokumen/` berisi:
+
+- `Lembar_Kerja_Praktikum_P1_4243250002.docx`: Bagian C (lembar kerja dan refleksi)
+- `Latihan_Mandiri_P1_4243250002.docx`: Bagian E (pilihan ganda dan uraian)
+
 ## f. Pernyataan penggunaan AI
 
-Saya menggunakan asisten AI (Claude, di VS Code) untuk:
+Saya menggunakan asisten AI untuk:
 
 - memeriksa kebutuhan dan memasang environment: Flutter SDK, Android SDK
   Command-line Tools, NDK, dan lisensi Android;
