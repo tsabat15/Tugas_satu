@@ -36,7 +36,13 @@ Tools • Dart 3.13.5 • DevTools 2.60.0
 
 ## d. Aplikasi berjalan di emulator / perangkat
 
-![Aplikasi Hello World](screenshots/aplikasi.png)
+Dijalankan di Xiaomi 15T (Android 16), setelah tombol **Sapa Saya** ditekan:
+
+<img src="screenshots/aplikasi.png" alt="Aplikasi Hello World di Xiaomi 15T" width="300">
+
+<!-- Sambungkan HP lewat USB lalu jalankan: flutter run -->
+
+
 
 ## e. Kendala dan solusi
 
@@ -54,10 +60,11 @@ Tools • Dart 3.13.5 • DevTools 2.60.0
    karena `;` memotong argumen di cmd), lalu build diulang dan berhasil.
 4. **Emulator tidak bisa menyala: "Virtualization Enabled In Firmware: No".**
    `emulator -accel-check` melaporkan driver hypervisor tidak terpasang karena
-   Intel VT-x masih nonaktif di BIOS. Solusinya mengaktifkan *Intel
-   Virtualization Technology* di BIOS, atau menjalankan aplikasi di ponsel
-   Android lewat USB debugging. Sambil menunggu, aplikasi diverifikasi dengan
-   `flutter test` dan `flutter build apk --debug`.
+   Intel VT-x masih nonaktif di BIOS. Solusinya, aplikasi dijalankan di ponsel
+   fisik **Xiaomi 15T (Android 16, API 36)** lewat USB debugging. Di HyperOS,
+   Developer options dibuka dengan mengetuk *OS version* 7 kali, lalu
+   **USB debugging** dan **Install via USB** harus sama-sama diaktifkan; tanpa
+   *Install via USB*, Xiaomi menolak pemasangan aplikasi dari laptop.
 
 ## Esai: Native, Hybrid, dan Cross-platform
 
